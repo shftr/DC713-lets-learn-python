@@ -1,0 +1,9 @@
+I just went to a website that has some email addresses on it. 
+
+I need you to extract the email addresses from the attached html file and put them into a separate file.
+
+You will need to use a couple of different things for this. You'll need to find some way to separate the email addresses from the rest of the file. 
+- Look into the python regex module (import re)
+
+Additionally, you will need to open the .html file, parse it, and then close it
+Also, you'll need to create a new html file, write the extracted email addresses to the file, and then close that new file.
