@@ -4,6 +4,10 @@ I need you to extract the email addresses from the attached html file and put th
 
 You will need to use a couple of different things for this. You'll need to find some way to separate the email addresses from the rest of the file. 
 - Look into the python regex module (import re)
+- Here is a good intro to regular expressions: https://regexone.com/
+- Regex can be used to extract certain pieces of information from large blocks of text
 
 Additionally, you will need to open the .html file, parse it, and then close it
 Also, you'll need to create a new html file, write the extracted email addresses to the file, and then close that new file.
+
+As always, if you need help, reach out to me on slack
