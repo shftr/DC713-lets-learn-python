@@ -1,0 +1,9 @@
+write a python script that will remove the dots from all of the file names in this directory
+
+there are a couple of ways you could accomplish this:
+- you could use the os module (import os) to read the filenames and then rename each one individually
+- you could use the shutil (import shutil) module to access shell utilities
+- you could use the os.system('command') to (from os import system) to call individual linux commands like this:
+	os.system('ls | grep stuff') 
+
+with reading files, you may need to give absolute path to remove ambiguity from the script
