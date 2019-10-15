@@ -3,3 +3,5 @@ Tommy 'StickyFingers' McGee just got dumped by his girlfriend. He is trying to g
 Write a script that will take a single argument, an address, and open a Google Maps page with the address.
 
 See the google_maps.py script for hints on what to do.
+
+Reach out to me on Slack if you need help
