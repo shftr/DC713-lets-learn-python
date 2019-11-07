@@ -1,4 +1,4 @@
-#!/usr/bin/local/python3
+#!/usr/local/bin/python3
 
 # you can use help($libraryname) in python REPL to look at syntax of a library or help($libraryname.functioncall) for a
 # function.
@@ -10,5 +10,7 @@ import sys
 import webbrowser # library to open a web page
 
 page = 'https://google.com/maps/place/'
+args = sys.argv[1:]
 
+print(args)
 
