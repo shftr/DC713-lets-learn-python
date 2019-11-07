@@ -11,6 +11,6 @@ import webbrowser # library to open a web page
 
 page = 'https://google.com/maps/place/'
 args = sys.argv[1:]
-
-print(args)
-
+joined_string = "+".join(args)
+print(joined_string)
+webbrowser.open(page+joined_string)
