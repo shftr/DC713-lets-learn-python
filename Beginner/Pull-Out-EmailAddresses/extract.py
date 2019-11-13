@@ -2,10 +2,13 @@
 
 # imports the re module for regular expressions
 import re 
+search_string = '\/span\>(\S+@\S+)<span'
 
-
-
-
+with open('source_material.html','r') as f:
+    source_string = f.read().replace('\n','')
+    found = re.findall(search_string,source_string)
+    for item in found:
+        print(item)
 
 #
 # There are a couple of different ways to open files in python.
